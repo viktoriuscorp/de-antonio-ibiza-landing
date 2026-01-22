@@ -86,6 +86,53 @@
       }
     }
   </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <style>
+    /* Global Typography - Google Sans */
+    body {
+      font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    }
+
+    /* Títulos - font-weight 700 */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .hero-title,
+    .font-weight-bold,
+    .card-title {
+      font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+      font-weight: 700 !important;
+      color: #000000 !important;
+    }
+
+    /* Párrafos - font-weight 400, +2 puntos de tamaño */
+    p,
+    .card-text,
+    .hero-subtitle,
+    span,
+    a,
+    li,
+    td,
+    th,
+    label,
+    input,
+    button {
+      font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+      font-weight: 400 !important;
+    }
+
+    p,
+    .card-text {
+      font-size: 1.1rem !important;
+      line-height: 1.7 !important;
+    }
+  </style>
 </head>
 
 <body class="home">
@@ -435,115 +482,103 @@
 
 
 
-  <footer>
-    <div class="footer1 py-lg-5 py-md-4 text-white" style="background-color:#131313;">
-      <div class="container">
-        <div class="py-4 border-bottom">
-          <div class="d-lg-flex justify-content-between align-items-center">
-            <div class="d-none d-lg-block">
-              <img src="/img/logo.png" class="img-fluid" alt="Logo" />
+        <footer class="bg-dark text-white">
+        <div class="footer1 py-lg-5 py-md-4" style="background-color:#0a0a0a;"> <!-- Darker background for contrast -->
+          <div class="container">
+            <div class="row py-4 border-bottom border-secondary">
+              <div class="col-md-4 mb-4 mb-md-0 d-flex align-items-center">
+                <img src="/img/logo.png" class="img-fluid" alt="Logo" style="max-height: 50px;" />
+              </div>
+              <div class="col-md-8 text-md-right">
+                <!-- SOCIAL MEDIA -->
+                <span class="text-transform font-weight-bold mr-3 text-white-50 small">SÍGUENOS EN:</span>
+                <a href="https://www.facebook.com/deantonioyachtsibiza/" class="text-white mr-3 h5 mb-0"><i
+                    class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/showcase/deantonioyachtsibiza/" class="text-white mr-3 h5 mb-0"><i
+                    class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/deantonioyachtsibiza/" class="text-white mr-3 h5 mb-0"><i
+                    class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCoPJEQOmsNrsTpOG-j0VAtQ" class="text-white h5 mb-0"><i
+                    class="fab fa-youtube"></i></a>
+              </div>
             </div>
-            <div>
-              <span class="text-uppercase font-weight-lighter mr-3 text-light">Follow us:</span>
-              <a href="https://www.facebook.com/deantonioyachtsibiza/" class="mr-3"><i
-                  class="fab fa-facebook-f"></i></a>
-              <a href="https://www.linkedin.com/showcase/deantonioyachtsibiza/" class="mr-3"><i
-                  class="fab fa-linkedin-in"></i></a>
-              <a href="https://www.instagram.com/deantonioyachtsibiza/" class="mr-3"><i
-                  class="fab fa-instagram"></i></a>
-              <a href="https://www.youtube.com/channel/UCoPJEQOmsNrsTpOG-j0VAtQ"><i class="fab fa-youtube"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="py-4">
-          <div class="row">
-            <div class="col-lg-5 mb-5 mb-lg-0">
-              <div class="pr-0 pr-lg-5">
-                <div class="font-weight-bold text-uppercase mb-4 text-light">
-                  Stay updated
-                </div>
-                <div id="result-newsletter" class="d-none">
-                  Thank you for subscribing to our newsletter.
-                </div>
+
+            <div class="row py-5">
+              <!-- COLUMN 1: NAVIGATION -->
+              <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <h5 class="text-uppercase font-weight-bold mb-4 text-primary">Navegación</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="/index.html" class="text-light">Inicio</a></li>
+                  <li class="mb-2"><a href="/alquiler.html" class="text-light">Alquiler de Barcos</a></li>
+                  <li class="mb-2"><a href="/venta.html" class="text-light">Venta Nuevos</a></li>
+                  <li class="mb-2"><a href="/ocasion.html" class="text-light">Venta Ocasión</a></li>
+                  <li class="mb-2"><a href="/contacto.html" class="text-light">Contacto</a></li>
+                </ul>
+              </div>
+
+              <!-- COLUMN 2: CONTACT (NAP) -->
+              <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+                <h5 class="text-uppercase font-weight-bold mb-4 text-primary">Contacto (NAP)</h5>
+                <ul class="list-unstyled text-light small">
+                  <li class="mb-3 d-flex"><i class="fas fa-map-marker-alt text-primary mr-3 mt-1"></i>
+                    <div><strong>De Antonio Yachts Ibiza</strong><br>Marina Ibiza, Paseo Juan Carlos I, 20<br>07800
+                      Ibiza, Islas Baleares</div>
+                  </li>
+                  <li class="mb-3 d-flex"><i class="fas fa-phone text-primary mr-3 mt-1"></i>
+                    <div><a href="tel:+34695835403" class="text-light">+34 695 835 403</a></div>
+                  </li>
+                  <li class="mb-3 d-flex"><i class="fas fa-envelope text-primary mr-3 mt-1"></i>
+                    <div><a href="mailto:info@deantonioyachtsibiza.com"
+                        class="text-light">info@deantonioyachtsibiza.com</a></div>
+                  </li>
+                  <li class="mb-3 d-flex"><i class="far fa-clock text-primary mr-3 mt-1"></i>
+                    <div>Lun - Dom: 10:00 - 20:00</div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- COLUMN 3: NEWSLETTER -->
+              <div class="col-lg-5 col-md-12">
+                <h5 class="text-uppercase font-weight-bold mb-4 text-primary">Newsletter</h5>
+                <p class="small text-muted mb-4">Suscríbete para recibir ofertas exclusivas de alquiler y novedades de
+                  venta.</p>
                 <div id="form-newsletter">
                   <form data-hp="city" data-ajax-form="handle_newsletter"
-                    action="https://deantonioyachtsibiza.com/en/newsletter" method="post">
-                    <div class="form-group">
-                      <label class="font-xs" for="">Name</label>
-                      <input type="text" class="form-control" name="name" id="footer-name">
-                      <span class="invalid-feedback"></span>
-                    </div>
-                    <div class="form-group">
-                      <label class="font-xs" for="">Email</label>
-                      <input type="email" class="form-control" name="email" id="footer-email">
-                      <small id="emailHelp" class="form-text text-muted">We will not share your email with third
-                        parties.</small>
-                      <span class="invalid-feedback"></span>
-                    </div>
-                    <div class="form-group">
-                      <label class="font-xs" for="">City</label>
-                      <input type="text" class="form-control" name="city">
+                    action="https://deantonioyachtsibiza.com/newsletter" method="post">
+                    <div class="input-group mb-3">
+                      <input type="email" class="form-control bg-dark text-white border-secondary"
+                        placeholder="Tu email" name="email" id="footer-email">
+                      <div class="input-group-append">
+                        <button class="btn btn-primary text-uppercase font-weight-bold"
+                          type="submit">Suscribirse</button>
+                      </div>
                     </div>
                     <div class="form-group form-check">
                       <input type="checkbox" class="form-check-input" name="accept" id="footer-accept" value="1">
-                      <label class="form-check-label font-xs" for="footer-accept">
-                        I read and accept the <a href="/en/info/privacy.html"><u>privacy policy</u></a>
-                      </label>
-                      <span class="invalid-feedback"></span>
+                      <label class="form-check-label small text-muted" for="footer-accept">Acepto la <a
+                          href="/info/privacy.html" class="text-white text-decoration-underline">política de
+                          privacidad</a></label>
                     </div>
-                    <button type="submit"
-                      class="btn btn-sm btn-outline-light text-uppercase px-3 py-1 mt-3 font-xs">Send</button>
                   </form>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-              <div class="font-weight-bold text-uppercase mb-4 text-light">
-                Legal
-              </div>
-              <div>
-                <ul class="list-unstyled font-xs text-uppercase font-weight-semibold">
-                  <li><a href="/en/info/privacy.html">Privacy Policy</a></li>
-                  <li><a href="/en/info/legal.html">Legal</a></li>
-                  <li><a href="/en/info/cancelacion.html">Cancellation Policy</a></li>
-                  <li><a href="/en/info/cookies.html">Cookies Policy</a></li>
-                </ul>
-              </div>
+          </div>
+        </div>
+
+        <div class="footer2 py-3 text-center small" style="background-color: #000;">
+          <div class="container d-md-flex justify-content-between align-items-center">
+            <div class="text-muted mb-2 mb-md-0">
+              © 2026 De Antonio Yachts Ibiza. Todos los derechos reservados.
             </div>
-            <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
-              <div class="font-weight-bold text-uppercase mb-4 text-light">
-                DeAntonio Yachts Ibiza Club
-              </div>
-              <div class="font-xs">
-                Contact us and we will inform you of all the advantages of DeAntonio Yachts Ibiza Club, not only in the
-                rental of our boats, but also in other exclusive services only for members and at no cost.
-              </div>
-              <div>
-                <a href="/en/club.html" class="btn btn-sm btn-outline-light text-uppercase px-3 py-1 mt-3 font-xs">View
-                  more</a>
-              </div>
+            <div>
+              <a href="/info/privacy.html" class="text-muted mr-3">Privacidad</a>
+              <a href="/info/legal.html" class="text-muted mr-3">Aviso Legal</a>
+              <a href="/info/cookies.html" class="text-muted">Cookies</a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-
-    <div class="footer2 py-3 text-white text-center bg-dark font-xs">
-      <div class="container">
-        <div class="d-lg-flex justify-content-between text-light">
-          <div>
-            <b>Language:</b>
-            <a href="/index.html">Español</a>
-            · <span class="font-weight-semibold">English</span>
-          </div>
-          <div>
-            ©2022 De Antonio Yachts S.L · Diseño web by <a href="http://develona.com" target="_blank">Develona</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+      </footer>
 
 
 
