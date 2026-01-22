@@ -1,0 +1,88 @@
+.jsCalendar.classic-theme tbody td.jsCalendar-selected {
+  background-color: #ff4646;
+  height: 34px;
+  color: #fff;
+  line-height: 32px;
+  width: 38px;
+}
+
+.jsCalendar.classic-theme tbody td {
+  line-height: 32px;
+  width: 41px;
+}
+
+.jsCalendar.classic-theme tbody td.jsCalendar-current.jsCalendar-selected {
+  background-color: #605e5e;
+  text-shadow: none;
+}
+
+.jsCalendar.classic-theme thead .jsCalendar-nav-left, .jsCalendar.classic-theme thead .jsCalendar-nav-right {
+  color: #605e5e;
+  text-shadow: none;
+}
+
+.jsCalendar.classic-theme thead .jsCalendar-title-name {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+}
+
+.jsCalendar.classic-theme thead {
+  background-color: transparent;
+  padding: 4px;
+}
+
+.jsCalendar table {
+  border-radius: 0;
+  box-shadow: none;
+  color: #605e5e;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.jsCalendar.classic-theme tbody td {
+  border-right: 1px solid #DADADA;
+  border-bottom: 1px solid #DADADA;
+}
+
+.jsCalendar.classic-theme thead .jsCalendar-week-days th {
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.jsCalendar.classic-theme thead .jsCalendar-nav-left:hover, .jsCalendar.classic-theme thead .jsCalendar-nav-right:hover {
+  background-color: transparent;
+}
+
+.jsCalendar tbody td.jsCalendar-previous {
+  opacity: 0;
+}
+
+.jsCalendar tbody td.jsCalendar-next {
+  /*color: #605e5e;*/
+  opacity: 0;
+}
+
+.jsCalendar-past {
+  background: #f0f0f0 !important;
+}
+
+.jsCalendar tbody td.jsCalendar-previous:hover, .jsCalendar tbody td.jsCalendar-next:hover {
+  color: #605e5e;
+}
+
+@media only screen and (min-width: 1200px) {
+  .jsCalendar.classic-theme tbody td {
+    width: 65px;
+  }
+
+  .jsCalendar.classic-theme tbody td.jsCalendar-selected {
+    width: 62px;
+  }
+
+  .jsCalendar thead .jsCalendar-week-days th, .jsCalendar tbody td {
+    width: 60px;
+  }
+}

@@ -1,0 +1,10 @@
+@media only screen and (max-width: 992px) {
+  .menu_deantonio .nav-item a {
+    height: 100px;
+  }
+
+  .font-xl {
+      font-size: 2rem;
+      line-height: 2rem;
+  }
+}

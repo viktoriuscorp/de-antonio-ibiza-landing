@@ -1,0 +1,73 @@
+@media only screen and (max-width: 767px) {
+  .menu_deantonio .nav-item {
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+  }
+
+  .menu_deantonio .mobile_menu_button .nav-item {
+    border-bottom: none;
+  }
+
+  .menu_deantonio .nav-item a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .menu_deantonio .nav-item a {
+    height: inherit;
+  }
+
+  .bg_foto_col {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  .linea_titulo {
+    border-bottom: none;
+    line-height: normal;
+  }
+
+  .boton_reservar {
+    position: relative;
+    right: inherit;
+    top: inherit;
+  }
+
+  .logo_yacht {
+    max-width: 120px;
+  }
+
+  .font-xl {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .btn-group-sm>.btn, .btn-sm {
+    font-size: .775rem;
+  }
+
+  .table td, .table th {
+    padding: 0.7rem;
+  }
+
+  .h1, h1 {
+    font-size: 1.8rem;
+  }
+
+  .formulario {
+    position: relative;
+    margin-top: -0;
+  }
+
+  .formulario .shadow {
+    box-shadow: none !important;
+  }
+
+  .venta_nuevo .ptop_400 {
+    padding-top: 60px !important;
+  }
+
+  .imgcarousel {
+    height: 200px;
+  }
+}
