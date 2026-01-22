@@ -37,223 +37,7 @@
     <link rel="stylesheet" href="/css/responsive-xs__q_v=6284d55505d63.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
-    <style>
-        body {
-            font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        .hero-title,
-        .font-weight-bold {
-            font-family: 'Product Sans', 'Google Sans', sans-serif !important;
-            font-weight: 700 !important;
-        }
-
-        p,
-        .card-text,
-        span,
-        a,
-        li {
-            font-family: 'Product Sans', 'Google Sans', sans-serif !important;
-            font-weight: 400 !important;
-        }
-
-        p,
-        .card-text {
-            font-size: 1.1rem !important;
-            line-height: 1.7 !important;
-        }
-
-        .hero-section {
-            position: relative;
-            height: 100vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
-                url('https://dv7zfk0hwmxgu.cloudfront.net/sites/default/files/styles/auto_1500_width/public/promoter-images/140718/slideshow-1712924248.jpg') center/cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: white;
-        }
-
-        .hero-title {
-            font-size: 3rem;
-            text-transform: uppercase;
-            margin-bottom: 1rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        }
-
-        .hero-subtitle {
-            font-size: 1.4rem;
-            margin-bottom: 2rem;
-            max-width: 700px;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-        }
-
-        .google-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: rgba(255, 255, 255, 0.15);
-            padding: 10px 20px;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .btn-cta-primary {
-            background: linear-gradient(135deg, #e91e63, #9c27b0);
-            border: none;
-            padding: 18px 50px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-radius: 50px;
-            box-shadow: 0 4px 15px rgba(233, 30, 99, 0.4);
-            transition: all 0.3s;
-        }
-
-        .btn-cta-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 6px 20px rgba(233, 30, 99, 0.5);
-        }
-
-        .feature-card {
-            background: white;
-            border-radius: 20px;
-            padding: 40px 30px;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-            text-align: center;
-            transition: transform 0.3s;
-            height: 100%;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .feature-icon {
-            width: 80px;
-            height: 80px;
-            background: linear-gradient(135deg, #e91e63, #9c27b0);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 25px;
-            color: white;
-            font-size: 2rem;
-        }
-
-        .boat-card {
-            background: white;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s;
-        }
-
-        .boat-card:hover {
-            transform: translateY(-10px);
-        }
-
-        .boat-card img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-        }
-
-        .boat-card-body {
-            padding: 25px;
-        }
-
-        .price-tag {
-            background: linear-gradient(135deg, #e91e63, #9c27b0);
-            color: white;
-            padding: 8px 20px;
-            border-radius: 30px;
-            font-weight: 600;
-            display: inline-block;
-        }
-
-        .trust-badge {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 15px;
-            padding: 20px;
-            text-align: center;
-        }
-
-        .cta-section {
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            padding: 80px 0;
-            text-align: center;
-            color: white;
-        }
-
-        .experience-gallery {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 15px;
-        }
-
-        .experience-gallery img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 15px;
-            transition: transform 0.3s;
-        }
-
-        .experience-gallery img:hover {
-            transform: scale(1.05);
-        }
-
-        .floating-cta {
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 1000;
-            background: linear-gradient(135deg, #e91e63, #9c27b0);
-            color: white;
-            padding: 15px 40px;
-            border-radius: 50px;
-            font-weight: 600;
-            text-decoration: none;
-            box-shadow: 0 4px 20px rgba(233, 30, 99, 0.5);
-            display: none;
-        }
-
-        @media (max-width: 768px) {
-            .hero-title {
-                font-size: 2rem;
-            }
-
-            .hero-subtitle {
-                font-size: 1.1rem;
-                padding: 0 20px;
-            }
-
-            .floating-cta {
-                display: block;
-            }
-
-            .experience-gallery {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-  <style>
+      <style>
     /* Global Typography - Google Sans */
     body {
       font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
@@ -272,6 +56,17 @@
       font-family: 'Product Sans', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
       font-weight: 700 !important;
       color: #000000 !important;
+    }
+
+    /* Títulos sobre fondo negro u oscuro */
+    .bg-dark h1, .bg-dark h2, .bg-dark h3, .bg-dark h4, .bg-dark h5, .bg-dark h6,
+    .bg-dark2 h1, .bg-dark2 h2, .bg-dark2 h3, .bg-dark2 h4, .bg-dark2 h5, .bg-dark2 h6,
+    .footer1 h5, .footer1 h4, .footer1 h3,
+    footer h1, footer h2, footer h3, footer h4, footer h5, footer h6,
+    .hero-overlay h1, .hero-overlay h2 {
+      color: #ffffff !important;
+      font-weight: 800 !important;
+      font-size: 20px !important;
     }
 
     /* Párrafos - font-weight 400, +2 puntos de tamaño */
@@ -582,7 +377,7 @@
     </section>
 
     <!-- Footer Simple -->
-          <footer class="bg-dark text-white">
+                <footer class="bg-dark text-white">
         <div class="footer1 py-lg-5 py-md-4" style="background-color:#0a0a0a;"> <!-- Darker background for contrast -->
           <div class="container">
             <div class="row py-4 border-bottom border-secondary">
