@@ -127,9 +127,19 @@
 
     /* Lead Magnet destacado */
     .text-white h2.font-weight-bold {
-      font-size: 2.5rem !important;
-      font-weight: 800 !important;
+      font-size: 3.5rem !important;
+      /* Aún más grande */
+      font-weight: 900 !important;
+      /* Más pesada */
       color: #ffffff !important;
+      line-height: 1.2 !important;
+    }
+
+    @media (max-width: 768px) {
+      .text-white h2.font-weight-bold {
+        font-size: 2rem !important;
+        /* Ajuste para mobile */
+      }
     }
 
     /* Párrafos - font-weight 400, +2 puntos de tamaño */
@@ -224,7 +234,8 @@
 
     @media (max-width: 768px) {
       .hero-title {
-        font-size: 1.6rem;
+        font-size: 1.4rem !important;
+        /* Bajado un par de puntos */
         letter-spacing: 1px;
         padding: 0 15px;
       }
@@ -274,9 +285,10 @@
 
       /* Urgency bar adjustments */
       .bg-danger.text-white.text-center {
-        font-size: 11px !important;
-        padding: 8px 15px !important;
-        line-height: 1.3;
+        font-size: 13px !important;
+        /* Más grande en mobile */
+        padding: 10px 15px !important;
+        line-height: 1.4;
       }
 
       /* Header position adjustment for urgency bar */
@@ -327,9 +339,9 @@
 
       <!-- URGENCY BAR START -->
       <div class="bg-danger text-white text-center py-2 font-weight-bold"
-        style="position: sticky; top: 0; z-index: 1050; font-size: 14px;">
+        style="position: sticky; top: 0; z-index: 1050; font-size: 16px;">
         <i class="fas fa-fire mr-2"></i> ¡ALTA DEMANDA! La disponibilidad para Julio y Agosto 2026 se está agotando
-        rápidamente. <a href="/alquiler.html" class="text-white text-decoration-underline ml-2"
+        rápidamente. <a href="alquiler.html" class="text-white text-decoration-underline ml-2"
           style="text-decoration: underline;">Reservar ahora</a>
       </div>
       <!-- URGENCY BAR END -->
@@ -448,8 +460,9 @@
             <p class="hero-subtitle">Vive la experiencia definitiva en el mar. Alquiler de charter y venta exclusiva de
               yates de diseño.</p>
             <div>
-              <a href="/alquiler.html" class="btn btn-primary btn-cta-primary mr-3">RESERVAR CHARTER</a>
-              <a href="/venta.html" class="btn btn-outline-light btn-lg text-uppercase font-weight-bold">VER GAMA
+              <a href="alquiler.html" class="btn btn-primary btn-cta-primary mr-3">RESERVAR CHARTER</a>
+              <a href="venta.html" class="btn btn-outline-light btn-lg text-uppercase font-weight-bold text-white">VER
+                GAMA
                 2026</a>
             </div>
           </div>
@@ -477,8 +490,8 @@
                         confort y estilo. Experiencias únicas con patrón.</p>
                     </div>
                     <div>
-                      <a href="/alquiler.html"
-                        class="btn btn-sm btn-light text-primary text-uppercase px-4 py-2 mt-3 font-weight-bold">RESERVAR
+                      <a href="alquiler.html"
+                        class="btn btn-sm btn-light text-dark text-uppercase px-4 py-2 mt-3 font-weight-bold">RESERVAR
                         AHORA</a>
                     </div>
                   </div>
@@ -499,8 +512,8 @@
                         tu próximo barco.</p>
                     </div>
                     <div>
-                      <a href="/venta.html"
-                        class="btn btn-sm btn-light text-primary text-uppercase px-4 py-2 mt-3 font-weight-bold">CONFIGURAR</a>
+                      <a href="venta.html"
+                        class="btn btn-sm btn-light text-dark text-uppercase px-4 py-2 mt-3 font-weight-bold">CONFIGURAR</a>
                     </div>
                   </div>
                 </div>
@@ -520,8 +533,8 @@
                         inteligente.</p>
                     </div>
                     <div>
-                      <a href="/ocasion.html"
-                        class="btn btn-sm btn-light text-primary text-uppercase px-4 py-2 mt-3 font-weight-bold">VER
+                      <a href="ocasion.html"
+                        class="btn btn-sm btn-light text-dark text-uppercase px-4 py-2 mt-3 font-weight-bold">VER
                         OFERTAS</a>
                     </div>
                   </div>
@@ -553,7 +566,7 @@
                         class="fas fa-child text-primary mr-2"></i> Familia</h5>
                     <p class="card-text text-muted small">Seguridad y confort absoluto para los más pequeños. Disfrutad
                       de un día tranquilo explorando calas cristalinas con total tranquilidad.</p>
-                    <a href="/familia.html" class="btn btn-link text-primary font-weight-bold p-0">Planear salida
+                    <a href="familia.html" class="btn btn-link text-primary font-weight-bold p-0">Planear salida
                       familiar <i class="fas fa-arrow-right ml-1"></i></a>
                   </div>
                 </div>
@@ -572,7 +585,7 @@
                         class="fas fa-users text-primary mr-2"></i> Amigos</h5>
                     <p class="card-text text-muted small">Música, diversión y la mejor puesta de sol de Ibiza. Barcos
                       equipados con sistemas de sonido premium y plataformas spaciosas.</p>
-                    <a href="/grupos.html" class="btn btn-link text-primary font-weight-bold p-0">Ver barcos para
+                    <a href="grupos.html" class="btn btn-link text-primary font-weight-bold p-0">Ver barcos para
                       grupos <i class="fas fa-arrow-right ml-1"></i></a>
                   </div>
                 </div>
@@ -591,7 +604,7 @@
                         class="fas fa-glass-cheers text-primary mr-2"></i> Eventos</h5>
                     <p class="card-text text-muted small">Soluciones a medida para despedidas, eventos corporativos o
                       grandes celebraciones en alta mar. Gestión integral disponible.</p>
-                    <a href="/eventos.html" class="btn btn-link text-primary font-weight-bold p-0">Consultar eventos <i
+                    <a href="eventos.html" class="btn btn-link text-primary font-weight-bold p-0">Consultar eventos <i
                         class="fas fa-arrow-right ml-1"></i></a>
                   </div>
                 </div>
